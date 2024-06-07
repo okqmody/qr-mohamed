@@ -22,5 +22,3 @@ def Shtrack():
         return {"error": "Missing one or more required parameters: bot_token, channel_username, user_id"}
     return get_chat_member_status(bot_token, channel_username, user_id)
 
-if __name__ == "__main__":
-    app.run()
